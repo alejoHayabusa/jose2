@@ -1,0 +1,64 @@
+body {
+  background-color: #150c3f !important; }
+
+.bg-primary {
+  background-color: #150c3f !important; }
+
+.bg-secondary {
+  background-color: #0e082a !important; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #F0EFF3; }
+
+hr {
+  width: 100%; }
+
+#fondo {
+  position: relative;
+  top: -108px;
+  width: 100%;
+  opacity: 0.88; }
+
+header {
+  width: 45%;
+  height: 150%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: rgba(21, 12, 63, 0.2); }
+
+#headerAuxiliar {
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  text-align: center;
+  text-shadow: 1px 1px 20px black;
+  font-size: 150%; }
+
+h1 {
+  font-size: 300%;
+  color: black; }
+
+#headerAuxiliar > p {
+  color: black; }
+
+nav {
+  z-index: 1; }
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #bfbfbf; }
+
+@media (max-width: 720px) {
+  header {
+    top: 10%;
+    width: 50%;
+    height: 55%; }
+
+  #headerAuxiliar {
+    font-size: 75%;
+    top: 30%;
+    left: 5%; } }
+
+/*# sourceMappingURL=paginas.css.map */
